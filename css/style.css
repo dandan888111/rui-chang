@@ -1,0 +1,383 @@
+/* Reset Code */
+*{
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    font-family: 'Lato', sans-serif;
+}
+
+body a {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    text-decoration: none;
+    color: #fff;
+}
+
+body a:hover {
+    text-decoration: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+body a:focus,
+a:hover {
+    text-decoration: none;
+}
+
+input[type="button"],
+input[type="submit"] {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+input[type="button"]:hover,
+input[type="submit"]:hover {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    line-height: 1.9;
+    color: #999;
+    font-family: 'Lato', sans-serif;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+  list-style: none;
+}
+label {
+    margin: 0;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+    outline: none
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.wp{
+  width: 1240px;
+  margin: 0 auto;
+}
+.bg-fff{
+  background: #fff;
+}
+h4.title{
+  padding-top: 80px;
+  margin:0 auto ;
+  color: #252526;
+  text-align: center;
+  font-size: 46px;
+}
+div.title-line{
+  width:108px;
+  height: 2px;
+  background: #252526;
+  margin: 15px auto 0;
+}
+/* //Reset Code */
+/*-- header --*/
+
+/* CSS Document */
+.banner{
+  width: 100%;
+  height: 860px;
+  background: url('../images/top_bg.png') center center no-repeat;
+}
+header{
+  height: 84px;
+}
+header h1{
+  font-size: 30px;
+  height: 84px;
+}
+header h1 a{
+  display: inline-block;
+  line-height: 84px;
+}
+header ul li{
+  height: 84px;
+  font-size: 30px;
+  margin-left: 35px;
+}
+header ul li a{
+  display: inline-block;
+  line-height: 84px;
+  color: #e6e6e6;
+  font-size: 22px;
+}
+header ul li a:hover{
+  color: #fff;
+}
+.toggle{
+  display: none;
+}
+.banner section.style-banner {
+  width: 1240px;
+  height: 420px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.38);
+  margin: 176px auto 0;
+}
+.banner section.style-banner h2{
+  padding-top: 70px;
+  text-align: center;
+  color: #fff;
+  font-size: 64px;
+}
+.banner section.style-banner h3{
+  margin-top: 26px;
+  text-align: center;
+  color: #fff;
+  font-size: 28px;
+}
+.banner section.style-banner .phone{
+  width: 488px;
+  height: 110px;
+  margin: 48px auto 0;
+  border: 1px solid #e6e6e6;
+  background: url(../images/tel_big.png) 40px 20px no-repeat;
+  color: #fff;
+  font-size: 60px;
+  line-height: 110px;
+  padding-left: 65px;
+}
+.content{
+  width: 100%;
+  overflow: hidden;
+  background: #fafafa;
+}
+.content.company-intro{
+  height: 634px;
+}
+.content.bg-fff{
+  background: #fff;
+}
+
+.content p{
+  font-size: 28px;
+  color: #494949;
+  margin: 70px auto 0;
+  line-height: 42px;
+}
+.content .image-list{
+  overflow: hidden;
+  clear: both;
+}
+.content .image-list li{
+  width: 390px;
+  height: 353px;
+  margin: 20px 0 40px 15px;
+  position: relative;
+}
+.content .image-list li img{
+  width: 390px;
+  height: 292px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.content .image-list li h5{
+  width: 390px;
+  height: 60px;
+  background: #fafafa;
+  line-height: 60px;
+  text-align: center;
+  font-size: 28px;
+  color: #494949;
+  position: absolute;
+  top: 292px;
+  left: 0;
+}
+.content.more{
+  height: 200px;
+  padding-top: 90px;
+}
+.content .btn{
+  width: 380px;
+  height: 114px;
+  border: 1px solid #262626;
+  margin: 0 auto;
+  border-radius: 5px;
+  font-size: 46px;
+  color: #262626;
+  text-align: center;
+  line-height: 114px;
+}
+footer{
+  width: 100%;
+  height: 390px;
+  background: url('../images/bottom_bg.png') no-repeat;
+}
+footer .title{
+  color: #fff;
+}
+footer .title-line{
+  background: #fff;
+  margin-bottom: 35px;
+}
+footer p{
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 4px;
+  height: 54px;
+  line-height: 54px;
+  font-size: 36px;
+}
+footer p.add{
+  width: 740px;
+  padding-left: 38px;
+  background: url('../images/address.png') left center no-repeat;
+}
+footer p.tel{
+  width: 574px;
+  padding-left: 38px;
+  background: url('../images/tel.png') left center no-repeat;
+}
+/* //responsive */
+@media screen and (max-width: 900px){
+  .wp{
+    width: 3rem;
+  }
+  h4.title{
+    width: 2.90rem;
+    padding-top: 0.2rem;
+    font-size: 0.4rem;
+  }
+  .banner{
+    height: 6.5rem;
+  }
+  .banner header .fl{
+    width: 2rem;
+    font-size: 0.16rem;
+    height: 0.4rem;
+    text-align: center;
+  }
+  .banner header .fr{
+    width: 1rem;
+    font-size: 0.16rem;
+    display: none;
+  }
+  .banner header ul{
+    margin-top: 0.2rem;
+  }
+  .banner header ul li.fl{
+    height: 0.3rem;
+  }
+  .banner header ul li a{
+    font-size: 0.15rem;
+    line-height: 0.3rem;
+  }
+  .toggle {
+    display: block;
+    padding: 8px 20px;
+    font-size: 15px;
+    text-decoration: none;
+    border: none;
+    float: right;
+    background-color: #ffffff;
+    color: #333;
+    cursor: pointer;
+    margin-top: 0.2rem;
+  }
+
+
+
+  .banner section.style-banner{
+    width: 3rem;
+    height: 3rem;
+    margin: 0.5rem auto 0;
+  }
+  .banner section.style-banner h2{
+    font-size: 0.2rem;
+    width: 1rem;
+    margin: 0 auto;
+  }
+  .banner section.style-banner h3 {
+    font-size: 0.2rem;
+  }
+  .banner section.style-banner .phone{
+    width: 2.8rem;
+    height: 1rem;
+    margin: 1rem auto 0;
+    background: url(../images/tel_big.png) 12px 35px no-repeat;
+    font-size: 0.3rem;
+    padding-left: 0.15rem;
+    background-size: 0.4rem 0.4rem;
+  }
+
+
+
+  .content p{
+    font-size: 0.2rem;
+    margin: 0.5rem auto 0;
+  }
+  .content.company-intro {
+    height: 8.34rem;
+  }
+  .content .image-list li {
+    width: 2.90rem;
+    margin: 0.40rem 0 0 0.08rem;
+  }
+  .content .image-list li img {
+    width: 2.90rem;
+    height: 2.92rem;
+  }
+  .content .image-list li h5{
+    width: 2.90rem;
+  }
+  footer p{
+    text-align: left;
+  }
+  footer p.add,footer p.tel{
+    width: 3rem;
+    font-size: 0.14rem;
+    background-size: 0.3rem 0.3rem;
+  }
+
+}
